@@ -7,8 +7,16 @@ button.forEach(function(clickButton){
     clickButton.addEventListener('click',function(){
         resultBox.innerHTML += clickButton.textContent
     })
-
+    let sum = clickButton + clickButton;
+    
+    let output = document.querySelector('#give_result')
+    output.addEventListener('submit', function(){
+        resultBox.textContent = sum;
+    })
 })
+
+
+
 
 
 

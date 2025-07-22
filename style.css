@@ -28,7 +28,7 @@ height: 86.9vh;
     padding: 2%;
     border: 1px solid black;
     width: 35%;
-    height: 75vh;
+    height: 80vh;
     background-color: rgba(77, 77, 204, 0.597);
 }
 #result_box{
@@ -39,7 +39,7 @@ height: 86.9vh;
 #cal_button{
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(5,50px);
+    grid-template-rows: repeat(6,50px);
     margin-top: 7%;
     row-gap: 7%;
     column-gap: 7%;
