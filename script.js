@@ -10,7 +10,14 @@ button.forEach(function (clickButton) {
 });
 
 output.addEventListener('click', function (e) {
-    resultBox.innerHTML = eval(resultBox.innerHTML);
+    let result = resultBox.innerHTML;
+    let result_1 = eval(result)
+    if (result_1 === Infinity || isNaN(result_1) || result_1 === -Infinity) {
+        resultBox.innerHTML = "error";
+    }
+    else {
+        resultBox.innerHTML = result_1;
+    }
     
 });
 
